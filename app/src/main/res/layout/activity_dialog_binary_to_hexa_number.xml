@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+tools:context=".Dialog_BinaryToHexaNumber"
+android:orientation="vertical"
+android:padding="20dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Binary To Hexadecimal Conversion"
+        android:layout_gravity = "center"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:inputType="number"
+        android:hint="Enter Binary String"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:onClick="performConversion"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/conversionAnswer"/>
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.assignment_app">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AssignmentApp">
+        <activity
+            android:name=".TripActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Update_Profile"
+            android:exported="true" />
+        <activity
+            android:name=".Dialog_Lottery"
+            android:exported="true" />
+        <activity
+            android:name=".Dialog_ChangeColour"
+            android:exported="true" />
+        <activity
+            android:name=".Dialog_BinaryToHexaNumber"
+            android:exported="true" />
+        <activity
+            android:name=".Dialog_Agecalculation"
+            android:exported="true" />
+        <activity
+            android:name=".Chat_Massage"
+            android:exported="true" />
+        <activity
+            android:name=".Signup"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

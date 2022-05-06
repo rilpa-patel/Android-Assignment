@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Signup">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:id="@+id/tvsignup"></TextView>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvsignup"
+        android:hint="Enter Your User Name Ex.xxx@docs.in"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/mailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+
+        android:hint="Enter Your Mail ID"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mailid"
+
+        android:hint="Enter Your Name"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+
+        android:hint="Enter Your Number"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/number"
+
+        android:hint="Enter Your Password"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        ></EditText>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="cursive"
+        android:paddingTop="0dp"
+        android:text="Reset"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="10dp"
+        android:onClick="Reset"
+        android:textStyle="bold"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_below="@+id/password"
+        android:text="Sign up"
+        android:fontFamily="cursive"
+        android:layout_alignParentRight="true"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:paddingTop="0dp"
+        android:onClick="submit"></Button>
+
+
+</RelativeLayout>

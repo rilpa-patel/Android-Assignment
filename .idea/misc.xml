@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.287962962962963" />
+        <entry key="../../../../../../layout/custom_preview.xml" value="0.21302083333333333" />
+        <entry key="app/src/main/res/layout/activity_chat_colour_page.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout/activity_chat_massage.xml" value="0.3052536231884058" />
+        <entry key="app/src/main/res/layout/activity_dialog_agecalculation.xml" value="0.3052536231884058" />
+        <entry key="app/src/main/res/layout/activity_dialog_binary_to_hexa_number.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/layout/activity_dialog_change_colour.xml" value="0.3052536231884058" />
+        <entry key="app/src/main/res/layout/activity_dialog_lottery.xml" value="0.3052536231884058" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_signup.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_trip.xml" value="0.29347826086956524" />
+        <entry key="app/src/main/res/layout/activity_update_profile.xml" value="0.18645833333333334" />
+        <entry key="app/src/main/res/layout/buttonlook.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_chat.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/fragment_dialog.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/fragment_trip__survey__list.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/list_view.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout/main_menu.xml" value="0.175" />
+        <entry key="app/src/main/res/layout/password_dialog.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/menu/trip_contex_menu.xml" value="0.35572916666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:id="@+id/tvlogin"></TextView>
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvlogin"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Enter Your User Name"
+        android:minHeight="48dp"
+        android:textAlignment="center"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Enter Password"
+        android:minHeight="48dp"
+        android:textAlignment="center"></EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:onClick="login"
+        android:layout_below="@+id/password"
+        android:padding="5dp"
+        android:text="login"
+        android:fontFamily="casual"></Button>
+
+    <Button
+        android:id="@+id/forgatepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_alignParentLeft="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="cursive"
+        android:paddingTop="0dp"
+        android:text="forgate password"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="10dp"
+        android:onClick="ForgetPassword"
+        android:textStyle="bold"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup"
+        android:layout_below="@+id/login"
+        android:text="Sign up"
+        android:fontFamily="cursive"
+        android:layout_alignParentRight="true"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:paddingTop="0dp"
+        android:onClick="Signup"></Button>
+
+
+
+</RelativeLayout>
